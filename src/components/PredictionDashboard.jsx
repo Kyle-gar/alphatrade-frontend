@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API_URL = "https://YOUR_BACKEND_URL.onrender.com/predict"; // Replace with your backend URL
+const API_URL = "https://alphatrade-backend.onrender.com"; // Replace with your backend URL
 
 export default function PredictionDashboard() {
   const [symbol, setSymbol] = useState("AAPL");
